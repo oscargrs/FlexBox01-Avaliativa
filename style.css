@@ -1,0 +1,71 @@
+body {
+    background-color: #f8f8f8;
+    color: #212427;
+    margin: 0;
+}
+
+h1 {
+    margin: auto;
+    width: fit-content;
+}
+
+.caixa {
+    border-radius: 5px;
+}
+
+.pai {
+    width: 25%;
+    height: 350px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.filho {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.cor1 {
+    background-color: #ED145B;
+}
+
+.cor2 {
+    align-self: flex-end;
+    margin-right: 5em;
+    order: 3;
+    background-color: #63B1BC;
+}
+
+.cor3 {
+    background-color: #EFB661;
+    align-self: center;
+}
+
+.instrucoes {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.footer {
+    background-color: antiquewhite;
+    height: 130px;
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+}
